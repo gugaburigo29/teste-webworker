@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --open"
+    "dev": "webpack-dev-server --mode development --open --env.development",
+    "build": "webpack --production --env.production"
   },
   "devDependencies": {
     "webpack": "^4.29.6",
