@@ -1,0 +1,20 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "babel-loader": "^8.0.5",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2"
+  },
+  "keywords": [],
+  "author": "Luis Gustavo Burigo Alexandre <gugaba29@gmail.com>",
+  "license": "ISC"
+}
