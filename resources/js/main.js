@@ -1,1 +1,2 @@
-navigator.serviceWorker.register('./worker.js');
+navigator.serviceWorker.register('./worker.js')
+    .then(res => console.log('[ServiceWorker] Registered'));
